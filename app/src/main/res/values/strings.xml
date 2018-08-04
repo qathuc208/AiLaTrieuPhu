@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="sub_text">Cách chơi game: \"Ai là triệu phú\"</string>
+    <string name="noidung_help">&quot;Mô phỏng cách chơi của Show truyền hình Ai là triệu phú. Bạn có 15 câu hỏi, trả lời sai câu hỏi nào dừng chơi luôn tại câu đó. Chương trình không giới hạn thời gian suy nghĩ của bạn. Bạn có 3 sự trợ giúp: 50/50, gọi điện thoại cho người thân, hỏi ý kiến khán giả. Chúc bạn may mắn.&quot;</string>
+    <string name="soud_Close">ÂM THANH TẮT</string>
+    <string name="soud_open">ÂM THANH BẬT</string>
+</resources>

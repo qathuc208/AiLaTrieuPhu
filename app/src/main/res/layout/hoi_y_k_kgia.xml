@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF"
+        android:gravity="left|center"
+        android:orientation="horizontal"
+        tools:ignore="DuplicateIds">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left"
+            android:text="DA A: "
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textpta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA B:"
+            android:textColor="#000000" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btna"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_ti_le"
+            android:gravity="left" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF"
+        android:gravity="left|center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA B:"
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textptb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA B:"
+            android:textColor="#000000" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnb"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_ti_le"
+            android:gravity="left|center" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF"
+        android:gravity="left|center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA C: "
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textptc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA B:"
+            android:textColor="#000000" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnc"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_ti_le"
+            android:gravity="left" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line4"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF"
+        android:gravity="left|center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left"
+            android:text="DA D: "
+            android:textColor="#000000" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/textptd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="left|center"
+            android:text="DA B:"
+            android:textColor="#000000" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnd"
+            android:layout_width="wrap_content"
+            android:layout_height="40px"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/back_btn_ti_le"
+            android:gravity="left" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="225dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_chonKhanGia"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="3dp"
+            android:text="Bỏ qua" >
+        </Button>
+    </LinearLayout>
+
+</LinearLayout><!--
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:background="#FFFFFF" 
+  android:weightSum="1">
+  
+    <LinearLayout 
+         android:id="@+id/linearLayout1" 
+         android:gravity="center_vertical|center_horizontal" 
+         android:background="#000000" 
+         android:layout_height="40dp" 
+         android:layout_width="225dp">
+         
+        <ImageView 
+                  android:layout_width="wrap_content"
+	              android:layout_height="wrap_content" 
+	              android:src="@drawable/icon_khangia"
+	              android:id="@+id/imageView1">
+	    </ImageView>
+        
+        <TextView 
+                  android:layout_height="wrap_content" 
+                  android:textAppearance="?android:attr/textAppearanceLarge" 
+                  android:id="@+id/textView1" 
+                  android:layout_marginLeft="5dp" 
+                  android:layout_marginTop="2dp" 
+                  android:textColor="#FFFFFF" 
+                  android:layout_width="fill_parent" 
+                  android:paddingBottom="5dp" 
+                  android:textSize="24dp" android:text="   Tỉ lệ ý kiến">
+         </TextView>
+         
+         
+    </LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/linearLayout2"
+		android:layout_height="wrap_content" 
+		android:weightSum="1" 
+		android:layout_marginTop="10dp" 
+		android:layout_width="225dp">
+		
+		<TableLayout 
+		    android:id="@+id/tableLayout1"
+			android:layout_marginTop="10dp" 
+			android:layout_weight="0.92" 
+			android:layout_marginLeft="15dp"
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content">
+			
+			<TableRow 
+			    android:layout_height="wrap_content" 
+			    android:id="@+id/tableRow1"
+				android:layout_width="wrap_content" 
+				android:gravity="center_vertical">
+				<TextView 
+				    android:id="@+id/textView2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:gravity="center" 
+					android:layout_width="fill_parent"
+					android:textColor="#000000" 
+					android:text="DA A: "
+					android:layout_height="wrap_content" 
+					android:layout_marginLeft="15dp">
+				</TextView>
+				
+					
+				<Button 
+				    android:id="@+id/btna"
+					android:gravity="center" 
+					android:layout_width="1dp"
+					android:layout_height="40px" 
+					android:layout_weight="1"
+					android:layout_marginLeft="15dp">
+				</Button>
+				
+			</TableRow>
+			
+			<View 
+			    android:layout_height="1sp" 
+			    android:layout_width="197dp"
+				android:background="@drawable/shape" 
+				android:layout_marginTop="10dp" 
+				android:layout_marginBottom="10dp">
+			</View>
+			
+			<TableRow 
+			    android:layout_height="wrap_content" 
+			    android:id="@+id/tableRow2"
+				android:layout_width="wrap_content" 
+				android:gravity="center_vertical">
+				<TextView 
+				    android:id="@+id/textView2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:gravity="center" 
+					android:layout_width="fill_parent"
+					android:textColor="#000000" 
+					android:text="DA B:"
+					android:layout_height="wrap_content" 
+					android:layout_marginLeft="15dp">
+				</TextView>
+
+				<Button
+				    android:id="@+id/btnb"
+				    android:layout_width="wrap_content"
+				    android:layout_height="40px"
+				    android:layout_marginLeft="15dp"
+				    android:background="@drawable/back_btn_ti_le"
+				    android:gravity="center" >
+
+				</Button>
+				
+			</TableRow>
+			
+			<View 
+			    android:layout_height="1sp" 
+			    android:layout_width="197dp"
+				android:background="@drawable/shape" 
+				android:layout_marginTop="10dp" 
+				android:layout_marginBottom="8dp">
+			</View>
+				
+			<TableRow 
+			    android:layout_height="wrap_content" 
+			    android:id="@+id/tableRow3"
+				android:layout_width="wrap_content" 
+				android:gravity="center_vertical">
+				
+				<TextView 
+				    android:id="@+id/textView2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:gravity="center" 
+					android:layout_width="fill_parent"
+					android:textColor="#000000" 
+					android:text="DA C:"
+					android:layout_height="wrap_content" 
+					android:layout_marginLeft="15dp">
+				</TextView>
+
+				<Button
+				    android:id="@+id/btnc"
+				    android:layout_width="wrap_content"
+				    android:layout_height="40px"
+				    android:layout_marginLeft="15dp"
+				    android:background="@drawable/back_btn_ti_le"
+				    android:gravity="center" >
+				</Button>
+			</TableRow>
+			<View 
+			    android:layout_height="1sp" 
+			    android:layout_width="197dp"
+				android:background="@drawable/shape" 
+				android:layout_marginTop="10dp" 
+				android:layout_marginBottom="8dp">
+			</View>
+			<TableRow 
+			    android:layout_height="wrap_content" 
+			    android:id="@+id/tableRow3"
+				android:layout_width="wrap_content" 
+				android:gravity="center_vertical">
+				
+				<TextView 
+				    android:id="@+id/textView2"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:gravity="center" 
+					android:layout_width="fill_parent"
+					android:textColor="#000000" 
+					android:text="DA D:"
+					android:layout_height="wrap_content" 
+					android:layout_marginLeft="15dp">
+				</TextView>
+					
+				<Button 
+				    android:id="@+id/btnd"
+					android:gravity="center" 
+					android:background="@drawable/back_btn_ti_le"
+					android:layout_height="40px" 
+					android:layout_width="10dp"
+					android:layout_marginLeft="15dp">
+				</Button>
+				
+			</TableRow>
+			
+		</TableLayout>
+		
+		
+	</LinearLayout>
+    
+    
+    <LinearLayout 
+        android:id="@+id/LinearLayout01" 
+        android:orientation="horizontal" 
+        android:gravity="center" 
+        android:layout_marginTop="20dp"
+        android:background="#91B0BF" 
+        android:layout_height="45dp" 
+        android:layout_width="225dp">
+        
+        <Button 
+              android:text="Bỏ qua" 
+              android:layout_width="130dp" 
+              android:layout_marginTop="3dp" 
+              android:layout_height="38dp" 
+              android:id="@+id/btn_chonKhanGia">
+        </Button>     
+    </LinearLayout>
+    
+</LinearLayout>
+-->

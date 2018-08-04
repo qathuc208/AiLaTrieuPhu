@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" 
+  android:background="@drawable/option" 
+  android:weightSum="1">
+  
+	<LinearLayout
+	    android:id="@+id/linearLayout11"
+	    android:layout_width="250dp"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="90dp"
+	    android:paddingTop="130dp"
+		android:orientation="horizontal">
+
+	</LinearLayout>
+
+    <LinearLayout 
+        android:id="@+id/LinearLayout01" 
+        android:orientation="vertical" 
+        android:gravity="center" 
+        android:layout_marginTop="20dp"
+       
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent">
+        
+		<Button 
+              android:text="ÂM THANH BẬT" 
+              android:layout_width="wrap_content" 
+              android:layout_marginTop="3dp" 
+              android:background="@drawable/short_orange"
+              android:layout_height="38dp" 
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:id="@+id/btn_sound">
+        </Button>
+        <Button 
+              android:text="             Bỏ qua          " 
+              android:layout_width="wrap_content" 
+            
+              android:layout_marginTop="40dp" 
+              android:background="@drawable/btn_wood"
+              android:layout_height="38dp" 
+              android:textColor="#2F8927"
+              android:textStyle="bold"
+              android:id="@+id/btn_cancel_option">
+        </Button>
+              
+    </LinearLayout>
+    
+</LinearLayout>
